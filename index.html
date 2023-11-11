@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>* {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    header {
+        background-image: url(img.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .main {
+        max-width: 1100px;
+        margin: auto;
+    }
+    
+    ul {
+        list-style-type: none;
+        float: right;
+        margin-top: 25px;
+    }
+    
+    ul li {
+        display: inline-block;
+        border: 1px solid transparent;
+    }
+    
+    ul li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 5px;
+        font-size: 1.5rem;
+    }
+    
+    ul li a:hover {
+        background-color: white;
+        color: black;
+        transition: 0.6s ease;
+    }
+    
+    .active {
+        background-color: white;
+        color: black;
+    }
+    
+    .image1 {
+        opacity: 0.5px;
+        width: 200px;
+        height: 80px;
+    }
+    
+    .center_text {
+        margin-top: 150px;
+        margin-left: 450px;
+    }
+    
+    h1 {
+        color: white;
+        font-size: 3rem;
+    }
+    .description{
+        color: white;
+        font-size: 1.5rem;
+        margin-right: 300px;
+        margin-bottom: 35px;
+    }
+    #bt1{
+        border: 1px solid white;
+        color: white;
+        padding: 5px;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 1.5rem;
+    }
+    #bt2{
+        border: 1px solid white;
+        color: white;
+        padding: 5px;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 1.5rem;
+    }
+    #bt1:hover{
+        background-color: white;
+        color: black;
+        transition: 0.6s ease;
+    }
+    #bt2:hover{
+        background-color: white;
+        color: black;
+        transition: 0.6s ease;
+    }
+    
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="main">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Info</a></li>
+            </ul>
+            <div class="logo">
+                <img class="image1" src="logo.png" alt="">
+            </div>
+        </div>
+        <div class="center_text">
+            <h1>
+                Yubraj's Creation
+            </h1>
+            <h2 class="description">Hello I'm Yubraj Sharma from West Bengal(kolkata). I am a Web Developer and a Web Deigner with 6 months of experience</h2>
+            <a href="#" id="bt1">Contact</a>
+            <a href="#" id="bt2">Read More</a>
+        </div>
+    </header>
+</body>
+
+</html>
